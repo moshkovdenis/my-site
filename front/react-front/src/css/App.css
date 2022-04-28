@@ -1,0 +1,37 @@
+a:link {
+    color: #353638;
+    font-size: 15px;
+    padding: 3px 0;
+    position: relative;
+    text-decoration: none;
+}
+a:visited {
+    text-decoration: none;
+    color: #353638;
+}
+a:hover {
+    text-decoration: none;
+    color: #154088;
+    border-bottom: .07em solid;
+}
+a:active {
+    text-decoration: none;
+    color: #497DDD;
+    border-bottom: 1px dashed;
+}
+
+h1 {
+    text-align: center;
+    font-size: 1.5em;
+}
+
+.home-link {
+    font-family: 'MS Reference Sans Serif', serif;
+    height: 48px;
+    justify-content: center;
+    font-size: 14pt;
+    border: 1px solid #767676;
+    border-radius: 8px;
+    background-color: black;
+    color: white;
+}
