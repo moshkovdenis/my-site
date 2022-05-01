@@ -4,6 +4,7 @@ a:link {
     padding: 3px 0;
     position: relative;
     text-decoration: none;
+    margin: 0px 1px 0 3px;
 }
 a:visited {
     text-decoration: none;
@@ -34,4 +35,10 @@ h1 {
     border-radius: 8px;
     background-color: black;
     color: white;
+}
+.all-users {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    color: #d1e0e4;
 }

@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "@tanstack/react-table": "^8.0.0-alpha.58",
+    "bootstrap": "^5.1.3"
+  }
+}

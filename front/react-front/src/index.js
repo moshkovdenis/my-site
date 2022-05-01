@@ -4,6 +4,10 @@ import {BrowserRouter, Route, Routes} from "react-router-dom";
 import Layout from "./Layout";
 import Header from "./Header";
 import './css/App.css';
+import './css/quote.css';
+import Quote from "./Quote";
+import 'bootstrap/dist/css/bootstrap.css';
+import 'bootstrap/dist/js/bootstrap';
 
 export default function Rout() {
     return (
@@ -13,6 +17,7 @@ export default function Rout() {
                 <Routes>
                     <Route path={'/'} element={<Layout/>}/>
                     <Route path={'/all-users'} element={<AllUsers/>}/>
+                    <Route path={'/quote'} element={<Quote/>}/>
                 </Routes>
             </BrowserRouter>
         </div>
